@@ -1,6 +1,6 @@
 import type { IExpense } from "../App"
 
-interface IExpenseCardProps extends IExpense { }
+interface IExpenseCardProps extends IExpense {}
 
 export const ExpenseCard = ({name, id, category, amount}: IExpenseCardProps) => {
     return (
@@ -13,4 +13,3 @@ export const ExpenseCard = ({name, id, category, amount}: IExpenseCardProps) => 
         </div>
     )
 }
-
